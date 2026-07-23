@@ -45,7 +45,7 @@ engine already uses a good chunk of flash.
 | PB2 | **Status LED** | Digital out | Blinks firmware version at boot; debug. |
 | PB3 | **Turbo in** | Digital in | Rising-edge IRQ. External clock tick that drives the glitch timing. |
 | PA0 | UPDI | — | Reserved for programming. |
-| PA3 | *unused* | — | Free if you want an extra input/output. |
+| PA3 | *unused* | — | |
 
 Pull-ups are on for every input except the RNG pin (PA6).
 
